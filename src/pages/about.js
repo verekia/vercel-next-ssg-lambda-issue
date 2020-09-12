@@ -1,5 +1,5 @@
 const AboutPage = () => <div>About</div>
 
-export const getStaticProps = () => ({ props: {} })
+export const getStaticProps = async () => ({ props: {} })
 
 export default AboutPage
