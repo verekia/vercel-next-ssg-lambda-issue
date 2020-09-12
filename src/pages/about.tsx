@@ -1,11 +1,11 @@
 import { GetStaticProps } from 'next'
 
-// @ts-ignore
-import doesntexist from 'doesntexist'
+import { swit } from '@sharyn/util'
 
 const AboutPage = () => <div>About</div>
 
 export const getStaticProps: GetStaticProps = async () => {
+  swit('', '')
   return { props: {} }
 }
 
