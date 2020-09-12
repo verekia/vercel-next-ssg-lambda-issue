@@ -6,6 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@sharyn/util": "^3.13.1",
+    "csv-parse": "^4.12.0",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.20",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
