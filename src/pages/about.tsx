@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 import { GetStaticProps } from 'next'
 
 import { swit } from '@sharyn/util'
